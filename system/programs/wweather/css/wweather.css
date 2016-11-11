@@ -1,0 +1,108 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.wweather.program{
+  
+  height:566px;
+  width:504px;
+  background:#fff;
+   float:left;
+   position: absolute;
+  
+}
+
+.wweather .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.wweather .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.wweather .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.wweather .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.wweather .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.wweather .icon-minus,.wweather .icon-max,.wweather  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.wweather .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.wweather .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .wweather .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+
+ .wweather  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .wweather  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .wweather  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}

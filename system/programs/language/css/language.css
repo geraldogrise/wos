@@ -1,0 +1,193 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.language.program{
+  
+  height:310px;
+  width:401px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.language .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.language .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.language .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.language .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.language .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.language .icon-minus,.language .icon-max,.language  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+ .language  .div_content label{
+	 margin-top:3px;
+	 
+ }
+ .language  .window_content{
+    background:#f0f0f0;
+ 
+ }
+ .language  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .language  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+ .language  .select_multiple{
+   margin-left:5%;
+ }
+
+ .language  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+ .language .container_users {
+   background:#fff;
+   color:#333;
+   width:90%;
+   margin:0 auto;
+   border:1px solid #333;
+   height:80%;
+   margin-top:2%;
+
+}
+.title_programs {
+   width:100%;
+   float:left;
+   margin-top:5px;
+   
+}
+.title_programs  img{
+   float:left;
+   width:48px;
+   margin-left:5px;
+}
+.title_programs  span{
+  float:left;
+  width:78%;
+  margin-left:3px;
+}
+.div_content{
+  margin:0 auto;
+ 
+  
+
+}
+.content_language {
+	border:1px solid #333;
+	float:left;
+	height:150px;
+	width: 315px;
+	
+	
+}
+
+
+.div_content .btns{
+  float:left;
+  width:100%;
+  margin-top:10px;
+  height:30px;
+
+}
+
+.div_content .btn{
+ 
+  background: #D2D2D2;
+}
+
+.language .remove_user,.language .add_user,.language .reset_password{
+ font-family: 'FontAwesome';
+
+}
+
+
+
+.language  fieldset {
+	border: 1px solid #AAAAAA;
+	margin: 0;
+	padding: 0 7px 7px 7px;
+	display: inline-block;
+	vertical-align: bottom;
+	width:90%;
+}
+.language  fieldset legend {
+	font: normal 12px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+	display: block;
+	border:1px solid #AAAAAA;
+	margin-bottom:5px;
+	background:#f0f0f0;
+}
+
+
+.language  .reset_password:before{
+   content: "\f023";
+  
+}
+.language .btns_extnernal{
+  float:left;
+  width:100%;
+  margin-top:5px;
+}
+.language .btn{
+ border:1px solid #333;
+}
+.language .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.language .btns_extnernal  .btns_group{
+     float:right;
+	 margin-right:16px;
+}
+.language .btns_extnernal .btn_ok{
+  float:left;
+  
+
+}
+.language .btns_extnernal .btn_cancel{
+  float:left;
+   
+}

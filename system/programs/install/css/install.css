@@ -1,0 +1,226 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.install.program{
+  
+  height:344px;
+  width:501px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.install .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.install .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.install .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.install .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.install .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.install .icon-minus,.install .icon-max,.install  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.install .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.install .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .install .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+ .install  .window_content{
+    background:#f0f0f0;
+ 
+ }
+ .install  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .install  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .install  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+ .install .container_wizard {
+   
+   color:#333;
+   width:90%;
+   margin:0 auto;
+   border:1px solid #333;
+   height:82%;
+   margin-top:2%;
+
+}
+.title_wizard {
+   width:68%;
+   float:right;
+   margin-top:5px;
+   background:#f0f0f0;
+   height:98%;
+   
+}
+.image_wizard  {
+  width:30%;
+  float:left;
+  background:#fff;
+  height:99%;
+   border-right:1px solid #333;
+}
+.image_wizard  img{
+   float:left;
+   width:80px;
+   margin-left:26px; 
+    margin-top:10px;     
+}
+.title_wizard h1 {
+  font-style:bold;
+  color:#333;
+  font-size:20px;
+   margin-left:5px;
+}
+.title_wizard  span{
+  float:left;
+  width:99%;
+  margin-top:10px;
+  margin-left:5px;
+   
+}
+
+    
+
+
+.install  .company{
+ float:left;
+ margin-top:115px;
+
+}
+.install  .company img{
+  float:left;
+  width:38px;
+  margin-left:5px;
+}
+.install  .company span{
+   float:left;
+   font-size:7px;
+   width:80px;
+   margin-top:10px;
+   margin-left:5px;
+   font-weight:bold;
+}
+.install  .title_program{
+   width:100%;
+   float:left;
+   text-align:center;
+   font-weight:bold;
+  
+}
+
+
+
+
+
+
+
+
+
+.install .btns_extnernal{
+    width:90%;
+   margin:5px auto;
+}
+.install .btn{
+ border:1px solid #333;
+}
+.install .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.install .btns_extnernal  .btns_group{
+     float:right;
+	
+}
+.install .btns_extnernal .btn_ok{
+  float:left;
+  
+
+}
+.install .btns_extnernal .btn_cancel{
+  float:left;
+   
+
+}
+.install .btns_extnernal .btn_back{
+  float:left;
+   
+
+}
+
+
+

@@ -1,0 +1,292 @@
+
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.ytbmanager.program{
+  
+  height:455px;
+  width:808px;
+  border:1px solid #333;
+  background:#fff;
+  float:left;
+   position: absolute;
+   background:#000;
+  
+  
+}
+.ytbmanager .window_main{
+ min-height:90%;
+}
+.ytbmanager .window_aside{
+ float:left; 
+ width:320px;
+  padding:0;
+ min-height:90%;
+  background:#5B5B5B;
+  overflow-x:hidden;
+   overflow-y:none;
+
+}
+
+.ytbmanager .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+
+ 
+}
+.ytbmanager  .modal-header_window {
+    background: none repeat scroll 0 0 #A9C3DD;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	  background:black;
+	
+	
+}
+.ytbmanager .top_bar{
+  float:left;
+  width:100%;
+}
+
+.ytbmanager .top_bar  .btn_menu input[type=image]{float:left;width:25px;height:25px;margin:0 2px 0 2px;}
+.ytbmanager .top_bar .btn_update .reload{float:left;background:#ECF2F9;height:24px;border-top:1px solid #333;margin:0 10px 0 0;}
+.ytbmanager .top_bar .btn_search .reload{float:left;background:#ECF2F9;height:24px;border-top:1px solid #333;}
+/*search text*/
+.ytbmanager .top_bar input.search_explore{float:left;width:56%;height:25px;background:#ECF2F9;border-bottom:1px solid #ccc;
+	border-top:1px solid #333;
+	border-left:1px solid #333;}
+.ytbmanager .top_bar input.search_all{
+	float:left;
+	width:25.3%;
+	height:25px;
+	background:#ECF2F9;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #333;
+	border-left:1px solid #333;
+	border-right:0;
+	
+}
+
+.ytbmanager .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.ytbmanager .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+}
+
+.ytbmanager .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.ytbmanager .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .ytbmanager .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+
+.ytbmanager  .sidebar{width:220px;float:left;border-right:1px solid #ccc;height:357px;overflow-y:scroll;background:#f4f4f4;}
+.ytbmanager  .container_explore{float:left;width:100%;background:#fff;}
+
+.ytbmanager .col-lg-search{
+  width:100%;
+  padding:0;
+  padding-left:5px;
+}
+.ytbmanager .window_main{
+   background:#000;
+}
+
+
+
+
+.ytbmanager ul.featured_tabs{
+	float:left;
+    width:323px;
+	height:346px;
+	
+	overflow-x:hidden;
+	font-size:12px;
+	color:#CCCCCC;
+	background:#5B5B5B;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.ytbmanager ul.featured_tabs li{
+  	float:left;
+	width:320px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom:2px dotted #7B7774;
+	
+}
+.ytbmanager ul.featured_tabs a{
+   float:left;
+   width:100%;
+   background:url("../images/file.png") top right 26px no-repeat transparent;
+  
+   
+}
+.ytbmanager ul.featured_tabs a img{
+
+   float:left;
+   width:80px;
+   margin-left:5px;
+   
+}
+.ytbmanager ul.featured_tabs a span{
+   float:left;
+   width:180px;
+   margin-left:5px;
+   color:#fff;
+   font-weight:normal;
+   font-family:Georgia, "Times New Roman", Times, serif;
+   margin-right:5px;
+
+}
+.ytbmanager ul.featured_tabs li.vid_selected a{
+  background-color:transparent;
+  background-image:url("../images/file2.png");
+}
+ul.featured_tabs li.vid_selected span{
+  color:#D6D1A9;
+}
+.ytbmanager ul.featured_tabs li:hover a{
+	
+	background-color:transparent;
+	background-image:url("../images/file2.png");
+}
+.ytbmanager ul.featured_tabs li:hover a span{
+ color:#D6D1A9;
+}
+
+.ytbmanager .featured_content{
+  float:left;
+  width:481px;
+  height:380px;
+  min-height:390px !important;
+ 
+ 
+
+}
+.ytbmanager .toolbar{
+	height:25px;
+	color:#fff;
+	float:left;
+	width:100%;
+	border-bottom:1px solid #fff;
+	font-size:14px;
+	background:#46739A;
+
+}
+.ytbmanager .toolbar a{
+  text-decoration:none;
+  
+}
+.ytbmanager .toolbar a:hover{
+  text-decoration:underline;
+  cursor:pointer;
+  
+}
+.ytbmanager .toolbar  img{
+ cursor:pointer;
+}
+.ytbmanager .featured_content iframe{
+  margin-left:5px;
+   
+}	
+.ytbmanager .remove,.ytbmanager .newvideo{
+  color:#fff;
+  float:left;
+   
+}
+.ytbmanager .newvideo{
+   margin-left:10px;
+}
+.ytbmanager .remove{
+  margin-left:15px;
+}
+
+
+.ytbmanager .newvideo,.ytbmanager .remove{
+   font-family: 'FontAwesome';
+  
+}
+.ytbmanager .newvideo:before{
+ /*content: "\f0fe";*/
+}
+.ytbmanager .remove:before{
+ /*content: "\f00d";*/
+ 
+}
+.ytbmanager .ytbInsert{
+  position:absolute;
+  left:200px;
+  top:50px;
+  display:none;
+  width:300px;
+  height:260px;
+}
+.ytbmanager .form-group{
+  width:90%;
+  margin:0 auto;
+}
+.ytbmanager .form_area{
+   float:left;
+   margin-top:3px;
+}
+.ytbmanager .form_area label{
+   float:left;
+   width:100%;
+}
+.ytbmanager .form_area textarea{
+  width:100%;
+  float:left;
+}
+.ytbmanager .form-group button{
+   float:right;
+   margin-top:10px;
+}
+.ytbmanager .btn_black{
+  background:#444;
+  color:#fff;
+}
+.ytbmanager iframe{
+  float:left;
+  width:100%;
+}
+
+

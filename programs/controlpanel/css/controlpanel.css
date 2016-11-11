@@ -1,0 +1,358 @@
+
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.controlpanel.program{
+  
+  height:400px;
+  width:758px;
+  background:#E9E9E6;
+   float:left;
+   position: absolute;
+  
+}
+
+.controlpanel .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+
+.controlpanel .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+
+.controlpanel .in_btn{
+  width:16px;
+  height:16px;
+
+}
+
+
+
+
+.controlpanel .window_aside{
+  float:left;
+  min-height:349px;
+  width:150px;
+  border-right:1px solid #fff;
+  background:#333;
+  
+}
+.controlpanel .window_content{
+  
+   background:#fff;
+  
+   
+}
+.controlpanel  .main_content{
+  left:0;
+  width:100%;
+
+}
+.controlpanel .listview .list-group.collapsed > .list-group-toggle::before{
+  top:3px;
+}
+
+.controlpanel .listview   .list{
+
+   margin:5px;
+   width:145px;
+   padding: 8px 4px 4px 75px;
+   height:64px !important;
+}
+
+
+.controlpanel  .account_listview  .list{
+   width:80% !important;
+}
+.controlpanel .listview   .list.disk{
+
+   margin:5px;
+   width:80%;
+   padding: 8px 4px 4px 75px;
+   height:64px !important;
+}
+.controlpanel .listview   .list:hover{
+  text-decoration:underline;
+}
+.controlpanel .listview   .list .list-icon{
+   height:64px;
+   width:64px;
+  
+}
+
+.controlpanel .listview   .list .list-title{ 
+   color:#006699;
+   font-size:22px;
+
+
+}
+.controlpanel .titulo{
+   font-size:20px;
+   padding:5px;
+   border-bottom:1px solid #006699;
+   color:#006699;
+   margin-left:9px;
+  
+
+}
+.controlpanel .divtitulo{
+   font-size:20px;
+   padding:5px;
+   color:#006699;
+   margin-left:9px;
+   font-weight:bold;
+  
+
+}
+
+.controlpanel .divtitulo_secondary{
+   font-size:17px;
+   padding:5px;
+   color:#333;
+   margin-left:9px;
+   margin-top:5px;
+   margin-bottom:5px;
+   float:left;
+   width:100%;
+  
+
+}
+.controlpanel .divtitulo_secondary h1{
+   color:#006699;
+   font-weight:bold;
+   float:left;
+   width:100%;
+   
+}
+
+.controlpanel .divtitulo_secondary hr{
+   background:#006699;
+   width:95%;
+   height:1px;
+   margin-bottom:5px;
+
+}
+.controlpanel  .local_info{
+   float:left;
+   width:70%;
+    
+  
+}
+.controlpanel  .local_info .info_system {
+   width:100%;
+   float:left;
+   font-weight:bold;
+   
+   
+
+}
+
+.controlpanel  .local_info .info_system_div{
+  width:100%;
+   float:left;
+}
+
+.controlpanel  .local_info .info_system_div .info_system_i {
+  
+   float:left;
+   width:50%;
+   font-weight:bold;
+   
+
+}
+.controlpanel .local_info .info_system span.info_r{
+  float:left;
+  
+}
+
+.controlpanel .local_image{
+   width:25%;
+   float:left;
+}
+.controlpanel .local_image img{
+  float:right;
+  width:122px;
+  height:56px;
+}
+
+.controlpanel .local_image_os img{
+  float:right;
+  width:122px;
+  margin-right:5%;
+ 
+}
+
+.controlpanel .listview.backupview  .list{
+
+   margin:5px;
+   padding: 11px 4px 4px 41px;
+   height:27px   !important;
+    width:80% !important;
+
+}
+
+
+
+.controlpanel .backupview .list .list-title{
+  	font-size:14px;
+}
+.controlpanel .backupview .list .list-icon {
+   width:30px;
+   height:30px;
+}
+.controlpanel .info_upd{
+  float:left;
+  width:500px;
+  margin-left:10px;
+  height:150px;
+  margin-top:10px;
+ 
+
+}
+.controlpanel .info_upd.warning{
+  border:1px solid #F7BE20;
+}
+.controlpanel .info_upd.danger{
+   border:1px solid #C74542;
+}
+.controlpanel .info_upd.ok{
+    border:1px solid #679F46;
+}
+
+.controlpanel .info_upd .border_info_upd{
+
+ float:left;
+ background:#F7BE20;
+ width:30px;
+ height:150px;
+
+}
+.controlpanel .info_upd .border_info_upd.warning{
+   background:#F7BE20;
+}
+.controlpanel .info_upd .border_info_upd.danger{
+  background:#C74542;
+}
+.controlpanel .info_upd .border_info_upd.ok{
+  background:#679F46;
+}
+
+.controlpanel  .info_upd  .img_info{
+  float:left;
+  width:50px;
+  height:150px;
+
+}
+.controlpanel  .info_upd  .img_info img{
+   float:left;
+   width:48px;
+   height:48px;
+   margin-top:15px;
+}
+.controlpanel  .links_info {
+ float:left;
+ width:210px;
+ height:150px;
+
+} 
+.controlpanel  .links_info ul{
+  
+   float:left;
+   width:208px;
+   margin-top:15px;
+   
+}
+.controlpanel .div_update{
+   float:left;
+   width:210px;
+   height:150px;
+
+
+}
+.controlpanel .div_update button{
+   float:right;
+   margin-top:100px;
+   margin-right:15px;
+border:1px solid #333;   
+
+}
+.controlpanel .div_install{
+   float:left;
+   width:100%;
+   height:150px;
+
+
+}
+.controlpanel .div_install button{
+   float:right;
+   margin-top:100px;
+   margin-right:15px;
+border:1px solid #333;   
+
+}
+.controlpanel .col-lg-2.control-label{
+  width:100%;
+}
+
+
+.controlpanel table.data tbody tr.pactive td {
+    background: #06c url("../images/gui/bar_top_link.png") repeat-x scroll 0 0;
+    color: #fff;
+}
+
+.controlpanel_sidebar{
+  float:left;
+  width:180px;
+ /* background:#006699;*/
+  height:700px;
+  background: url("images/sidebar.png") repeat-y;
+  
+
+}
+.ajax_content{
+  float:left;
+}
+.controlpanel_sidebar  span{
+   color:#333;
+   font-size:18px;
+   margin-left:5px;
+
+}
+.controlpanel_sidebar ul{
+
+      list-style:none;
+	  width:100%;
+	  margin:0;
+	  padding:0;
+}
+
+.controlpanel_sidebar ul li {
+   float:left;
+   width:95%;
+   margin-left:12px;
+ 
+}
+.controlpanel_sidebar ul li a{
+  cursor:pointer;
+}
+
+.controlpanel .content_area{
+  float: left;
+  margin-left: 1%;
+  width: 70%;
+}
+
+
+

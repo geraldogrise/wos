@@ -1,0 +1,265 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.backup.program{
+  
+  height:380px;
+  width:467px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.backup .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.backup .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.backup .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.backup .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.backup .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.backup .icon-minus,.backup .icon-max,.backup  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.backup .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.backup .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .backup .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+
+ .backup  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .backup  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .backup  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+.title_locals {
+   width:100%;
+   float:left;
+   margin-top:5px;
+   margin-bottom: 10px;
+   
+}
+.title_locals  img{
+   float:left;
+   width:30px;
+   margin-left:20px;
+}
+.title_locals  span{
+  float:left;
+  width:70%;
+  font-size:17px;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+.div_content{
+  margin:0 auto;
+  width:90%;
+  
+
+}
+    
+ .div_content .tbl_locals{
+    float:left;
+	border:1px solid #333;
+	width:100%;
+    border-collapse: collapse;
+ 
+ }
+ .div_content .tbl_locals th{
+   background:#f0f0f0;
+   border-bottom:1px solid #333;
+   padding: 0 5px;
+   height: 26px;
+   font-size: 12px;
+    vertical-align:middle;
+ }
+.div_content .tbl_locals th.td_name{
+ 
+ border-right:1px solid #ccc;
+
+ 
+ }
+ .div_content .tbl_locals th.td_grp{
+   
+	 border-right:1px solid #333;
+	
+ }
+
+.div_content .tbl_locals td{
+  padding: 0 5px;
+  height: 26px;
+  font-size: 12px;
+  vertical-align:middle;
+}
+.div_content .tbl_locals tr.active td{
+ background:#3399FF;
+ color:#fff;
+
+}
+
+.div_content .btns{
+  float:left;
+  width:100%;
+  margin-top:10px;
+  height:30px;
+
+}
+
+.div_content .btn{
+ 
+  background: #D2D2D2;
+}
+
+.backup .btn_reset_password{
+ float:right;
+}
+
+
+
+.backup .btn_add,.btn_remove{
+ font-family: 'FontAwesome';
+
+}
+.backup  .btn_select:before{
+   content: "\f07c";
+}
+.backup  .btn_delete:before{
+   content: "\f00d";
+}
+
+
+
+.backup .div_reset{
+ float:left;
+ width:100%;
+ margin-top:10px;
+
+}
+.backup .div_reset span{
+ float:left;
+  width:70%;
+
+}
+.backup  fieldset {
+	border: 1px solid #AAAAAA;
+	margin: 0;
+	padding: 0 7px 7px 7px;
+	display: inline-block;
+	vertical-align: bottom;
+	width:90%;
+}
+.backup  fieldset legend {
+	font: normal 12px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+	display: block;
+	border:1px solid #AAAAAA;
+	margin-bottom:5px;
+	background:#f0f0f0;
+}
+
+
+.backup  .reset_password:before{
+   content: "\f023";
+  
+}
+.backup .btns_extnernal{
+  float:left;
+  width:100%;
+  margin-top:15px;
+}
+.backup .btn{
+ border:1px solid #333;
+}
+.backup .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.backup .btns_extnernal  .btns_group{
+     float:right;
+	 margin-right:16px;
+}
+.backup .btns_extnernal .btn_ok{
+  float:left;
+  
+
+}
+.backup .btns_extnernal .btn_cancel{
+  float:left;
+   
+
+}
+

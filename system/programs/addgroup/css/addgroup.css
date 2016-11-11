@@ -1,0 +1,272 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.addgroup.program{
+  
+  height:344px;
+  width:401px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.addgroup .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.addgroup .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.addgroup .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.addgroup .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.addgroup .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.addgroup .icon-minus,.addgroup .icon-max,.addgroup  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.addgroup .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.addgroup .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .addgroup .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+ .addgroup  .window_content{
+    background:#f0f0f0;
+ 
+ }
+ .addgroup  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .addgroup  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .addgroup  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+ .addgroup .container_users {
+   background:#fff;
+   color:#333;
+   width:90%;
+   margin:0 auto;
+   border:1px solid #333;
+   height:82%;
+   margin-top:2%;
+
+}
+.title_users {
+   width:100%;
+   float:left;
+   margin-top:5px;
+   
+}
+.title_users  img{
+   float:left;
+   width:48px;
+}
+.title_users  span{
+  float:left;
+  width:70%;
+}
+.div_content{
+  margin:0 auto;
+ 
+  
+
+}
+    
+ .div_content .tbl_users{
+    float:left;
+	border:1px solid #333;
+	width:100%;
+    border-collapse: collapse;
+ 
+ }
+ .div_content .tbl_users th{
+   background:#f0f0f0;
+   border-bottom:1px solid #333;
+   padding: 0 5px;
+   height: 26px;
+   font-size: 12px;
+    vertical-align:middle;
+ }
+.div_content .tbl_users th.td_name{
+ 
+ border-right:1px solid #ccc;
+
+ 
+ }
+ .div_content .tbl_users th.td_grp{
+   
+	 border-right:1px solid #333;
+	
+ }
+
+.div_content .tbl_users td{
+  padding: 0 5px;
+  height: 26px;
+  font-size: 12px;
+  vertical-align:middle;
+}
+.div_content .tbl_users tr.active td{
+ background:#3399FF;
+ color:#fff;
+
+}
+
+.div_content .btns{
+  float:left;
+  width:100%;
+  margin-top:10px;
+  height:30px;
+
+}
+
+.div_content .btn{
+ 
+  background: #D2D2D2;
+}
+
+.addgroup .btn_reset_password{
+ float:right;
+}
+
+
+
+.addgroup .remove_user,.addgroup .add_user,.addgroup .reset_password{
+ font-family: 'FontAwesome';
+
+}
+.addgroup  .add_user:before{
+   content: "\f234";
+}
+.addgroup .remove_user:before{
+ content: "\f235";
+}
+
+.addgroup .div_reset{
+ float:left;
+ width:100%;
+ margin-top:10px;
+
+}
+.addgroup .div_reset span{
+ float:left;
+  width:70%;
+
+}
+.addgroup  fieldset {
+	border: 1px solid #AAAAAA;
+	margin: 0;
+	padding: 0 7px 7px 7px;
+	display: inline-block;
+	vertical-align: bottom;
+	width:90%;
+}
+.addgroup  fieldset legend {
+	font: normal 12px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+	display: block;
+	border:1px solid #AAAAAA;
+	margin-bottom:5px;
+	background:#f0f0f0;
+}
+
+
+.addgroup  .reset_password:before{
+   content: "\f023";
+  
+}
+.addgroup .btns_extnernal{
+  float:left;
+  width:100%;
+  margin-top:5px;
+}
+.addgroup .btn{
+ border:1px solid #333;
+}
+.addgroup .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.addgroup .btns_extnernal  .btns_group{
+     float:right;
+	 margin-right:16px;
+}
+.addgroup .btns_extnernal .btn_ok{
+  float:left;
+  
+
+}
+.addgroup .btns_extnernal .btn_cancel{
+  float:left;
+   
+
+}
+
+

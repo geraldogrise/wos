@@ -1,0 +1,219 @@
+
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.soundmanager.program{
+  
+  height:470px;
+  width:650px;
+  border:1px solid #333;
+  background:#fff;
+  float:left;
+   position: absolute;
+  
+  
+}
+
+ .soundmanager .window_main{
+  float:left;
+  width:64%;
+    min-height:85%;
+}
+
+.soundmanager .window_aside{
+   float:left;
+   overflow-y:scroll; 
+   min-height:85%;
+}
+
+.soundmanager .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+
+ 
+}
+.soundmanager  .modal-header_window {
+    background: none repeat scroll 0 0 #A9C3DD;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	  background:black;
+	
+	
+}
+.soundmanager .top_bar{
+  float:left;
+  width:100%;
+}
+
+.soundmanager .top_bar  .btn_menu input[type=image]{float:left;width:25px;height:25px;margin:0 2px 0 2px;}
+.soundmanager .top_bar .btn_update .reload{float:left;background:#ECF2F9;height:24px;border-top:1px solid #333;margin:0 10px 0 0;}
+.soundmanager .top_bar .btn_search .reload{float:left;background:#ECF2F9;height:24px;border-top:1px solid #333;}
+/*search text*/
+.soundmanager .top_bar input.search_explore{float:left;width:56%;height:25px;background:#ECF2F9;border-bottom:1px solid #ccc;
+	border-top:1px solid #333;
+	border-left:1px solid #333;}
+.soundmanager .top_bar input.search_all{
+	float:left;
+	width:25.3%;
+	height:25px;
+	background:#ECF2F9;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #333;
+	border-left:1px solid #333;
+	border-right:0;
+	
+}
+
+.soundmanager .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.soundmanager .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+}
+
+.soundmanager .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.soundmanager .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .soundmanager .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+
+.soundmanager  .sidebar{width:220px;float:left;border-right:1px solid #ccc;height:357px;overflow-y:scroll;background:#f4f4f4;}
+.soundmanager  .container_explore{float:left;width:100%;background:#fff;}
+
+.soundmanager .col-lg-search{
+  width:100%;
+  padding:0;
+  padding-left:5px;
+}
+
+.soundmanager .has-error .form-control{
+   border-color:black;
+}
+.soundmanager  .has-error .input-group-addon {
+    background-color: #f4f4f4;
+    border-color: black;
+    color: #000000;
+	cursor:pointer;
+}
+
+.soundmanager  .image_itens{
+   width:100%;
+   background:#f4f4f4;
+   height:90%;
+}
+
+.soundmanager  .input_name{
+  width:138px;
+  float:left;
+}
+
+.soundmanager .insert_button{
+   float:left;
+   padding-top:3px;
+   padding-left:2px;
+}
+.soundmanager .soundInsert{
+  position:absolute;
+  left:200px;
+  top:50px;
+  display:none;
+  width:350px;
+  height:330px;
+}
+.soundmanager .form-group{
+  width:90%;
+  margin:0 auto;
+}
+.soundmanager div.group img{
+   width:120px;
+   height:120px;
+   cursor:pointer;
+}
+.soundmanager label.group{
+  float:left;
+  width:100%;
+}
+.soundmanager button.group{
+  width:100%;
+  float:left;
+  margin-top:0;
+}
+.soundmanager .form-control_width_button{
+  width:65%;
+  float:left;
+}
+.soundmanager button.button_explore{
+   width:100px;
+   float:left;
+   margin-left:2px;
+   background:#444444;
+   color:#fff;
+}
+
+
+
+
+.soundmanager  button.insert{
+   float:left;
+   margin-top:10px;
+  
+}
+.soundmanager .btn_black{
+  background:#444;
+  color:#fff;
+}
+
+.soundmanager .add_audio{
+   font-family: 'FontAwesome';
+   cursor:pointer;
+   
+}
+.soundmanager .add_audio:hover{
+   text-decoration:none;
+}
+.soundmanager .add_audio:before{
+ content: "\f067";
+ color:#647224;
+ font-size:18px;
+}
+.soundmanager table.data{
+  width:100%;
+}

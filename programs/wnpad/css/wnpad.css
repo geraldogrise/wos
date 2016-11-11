@@ -1,0 +1,117 @@
+
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.wnpad.program{
+  
+  height:400px;
+  width:640px;
+  background:#fff;
+   float:left;
+   position: absolute;
+  
+}
+
+.wnpad .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.wnpad .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.wnpad .top_bar{
+  float:left;
+  width:100%;
+
+}
+
+
+.wnpad .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.wnpad .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.wnpad .icon-minus,.wnpad .icon-max,.wnpad  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.wnpad .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.wnpad .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .wnpad .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+
+ .wnpad  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .wnpad  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+.wysiwyg-input        {position:relative;}
+.wysiwyg-input body{height:300px;}
+.wysiwyg-input {position:absolute;top:68;left:0;width:100%;height:78%}
+
+ .wnpad  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+
+.window_content{
+  overflow-x:none;
+  overflow-y:none;
+  bottom:0;
+}

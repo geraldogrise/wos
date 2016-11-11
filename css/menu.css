@@ -1,0 +1,202 @@
+
+ 
+
+ #menu_app {
+   float:left;
+   width:100%;
+   background:#F4F4F4;
+   font-size:93%;
+   line-height:normal;
+   border-bottom:1px solid #24618E;
+ }
+ #menu_app ul {
+ 
+   margin:0;
+   list-style:none;
+  
+    
+ }
+  #menu_app li {
+   display:inline;
+   margin:0;
+   padding:0;
+   float: left;
+   position:relative;
+  
+  
+ }
+
+#menu_app a {
+  float:left;
+  background:url("../images/tableftJ.gif") no-repeat left top;
+  margin:0;
+  padding:0 0 0 5px;
+  text-decoration:none;
+}
+ #menu_app a span {
+   float:left;
+   display:block;
+   background:url("../images/tabrightJ.gif") no-repeat right top;
+   padding:5px 15px 4px 6px;
+   color:#24618E;
+ }
+   
+ #menu_app a span {float:none;}
+    /* End IE5-Mac hack */
+ #menu_app a:hover span {
+   color:#FFF;
+ }
+ #menu_app a:hover {
+    background-position:0% -42px;
+ }
+ #menu_app a:hover span {
+  background-position:100% -42px;
+ }
+#menu_app #current a {
+  background-position:0% -42px;
+}
+#menu_app #current a span {
+  background-position:100% -42px;
+   color:#FFF;
+}
+#menu_app ul li ul.submenu{
+  list-style:none;
+  position:absolute;
+  top:25px;
+  left:0;
+  background:none;
+  z-index:999999;
+
+}
+
+#menu_app ul li ul.submenu li a{
+ width:110px;
+
+
+
+}
+#menu_app ul li ul.submenu li a{
+   float:left;
+ 
+   background:url("../images/tabrightJ.gif") no-repeat right top;
+   padding:5px 15px 4px 6px;
+   color:#24618E;
+   font-size:12px;
+
+}
+
+ #menu_app ul li ul.submenu li a:hover {
+    background-position:0% -42px;
+	 color:#FFF;
+ }
+
+span.file:before {
+	font-family: FontAwesome;
+	content: "\f016";
+}
+span.config:before {
+	font-family: FontAwesome;
+	content: "\f013";
+}
+span.edit:before {
+	font-family: FontAwesome;
+	content: "\f044";
+}
+span.help:before {
+	font-family: FontAwesome;
+	content: "\f128";
+}
+
+span.build:before {
+	font-family: FontAwesome;
+	content: "\f04b";
+}
+
+
+
+
+a.trash:before {
+	font-family: FontAwesome;
+	content: "\f014";
+}
+a.undo:before {
+	font-family: FontAwesome;
+	content: "\f112";
+}
+a.redo:before {
+	font-family: FontAwesome;
+	content: "\f064";
+}
+
+a.copy:before {
+	font-family: FontAwesome;
+	content: "\f0c5";
+}
+a.cut:before {
+	font-family: FontAwesome;
+	content: "\f0c4";
+}
+a.paste:before {
+	font-family: FontAwesome;
+	content: "\f0ea";
+}
+
+
+
+a.open:before {
+	font-family: FontAwesome;
+	content: "\f115";
+}
+a.save:before {
+	font-family: FontAwesome;
+	content: "\f0c7";
+}
+a.print:before {
+	font-family: FontAwesome;
+	content: "\f02f";
+}
+a.import:before {
+	font-family: FontAwesome;
+	content: "\f093";
+}
+a.closep:before {
+	
+	font-family: FontAwesome;
+	content: "\f011";
+}
+a.export:before {
+	font-family: FontAwesome;
+	content: "\f019";
+}
+
+
+
+
+
+
+
+a.picture:before {
+	font-family: FontAwesome;
+	content: "\f0ea"
+}
+
+
+
+a.options:before {
+	font-family: FontAwesome;
+	content: "\f0ad";
+}
+a.preferences:before {
+	font-family: FontAwesome;
+	content: "\f17a";
+}
+
+a.diagram:before {
+	font-family: FontAwesome;
+	content: "\f0e8";
+}
+
+
+
+
+

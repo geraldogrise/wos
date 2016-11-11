@@ -1,0 +1,10 @@
+.font_icon:before{
+  font-family: FontAwesome;
+}
+i.search_icon:before{
+  content: "\f002";
+}
+
+
+
+

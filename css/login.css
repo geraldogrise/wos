@@ -1,0 +1,98 @@
+﻿/*!
+ * BLOCKS - Responsive Dashboard Theme
+ *
+ * Copyright 2013 
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * Created by: Carlos Esteban Alvarez
+ * URL: http://www.basicoh.com
+ * Designed and built based on Twitter Bootstrap.
+ */
+
+/*CONFIGURATION USED IN LOGIN.HTML*/
+/*Login Page*/
+
+html{
+	/* This image will be displayed fullscreen */
+	background:url('images/beach.jpg') no-repeat center center;
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+
+	/* The Magic */
+	background-size:cover;
+}
+body {
+	background:transparent;
+	
+	min-height:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+div.div_pass{
+	float:left;
+	width:100%;
+	
+	
+}
+
+select, textarea, input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color], .uneditable-input {
+  display: block;
+  height: 26px;
+  padding: 4px 6px;
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9e9d9d;
+  float:left;
+  margin-left:106px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.block-unit {
+  margin-bottom: 30px;
+  padding-bottom:10px;
+	border: 1px solid #6a6868;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+/*FORM ERROR MESSAGE*/
+.error{ color:#b2c831;}
+
+@media (max-width: 979px) {
+  .navbar-fixed-top {
+    margin-bottom: 0px;
+  }
+}
+.grise_voice{
+  float:left;
+  width:100%;
+  margin-bottom:7px;
+  
+ 
+}
+.span_voice_captcha{
+  float:left;
+  margin-left:120px;
+  width:150px;
+  background:#fff;
+  height:25px;
+  border:1px solid #333;
+
+}
+.span_voice{
+  float:left;
+  margin-left:107px;
+  width:192px;
+  background:#fff;
+  height:34px;
+  border:1px solid #333;
+  font-size:20px;
+}
+
+.realperson-challenge{
+  margin-left:21px;
+}

@@ -1,0 +1,214 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.programs_options.program{
+  
+  height:440px;
+  width:401px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.programs_options .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.programs_options .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.programs_options .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.programs_options .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.programs_options .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.programs_options .icon-minus,.programs_options .icon-max,.programs_options  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+ .programs_options  .div_content label{
+	 margin-top:3px;
+	 
+ }
+ .programs_options  .window_content{
+    background:#f0f0f0;
+ 
+ }
+ .programs_options  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .programs_options  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .programs_options  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+ .programs_options .container_users {
+   background:#fff;
+   color:#333;
+   width:90%;
+   margin:0 auto;
+   border:1px solid #333;
+   height:86%;
+   margin-top:2%;
+
+}
+.title_programs {
+   width:100%;
+   float:left;
+   margin-top:5px;
+   
+}
+.title_programs  img{
+   float:left;
+   width:48px;
+   margin-left:5px;
+}
+.title_programs  span{
+  float:left;
+  width:78%;
+  margin-left:3px;
+}
+.div_content{
+  margin:0 auto;
+ 
+  
+
+}
+.content_program {
+	border:1px solid #333;
+	float:left;
+	height:220px;
+	width: 315px;
+	
+	
+}
+
+
+.div_content .btns{
+  float:left;
+  width:100%;
+  margin-top:10px;
+  height:30px;
+
+}
+
+.div_content .btn{
+ 
+  background: #D2D2D2;
+}
+
+.programs_options .remove_user,.programs_options .add_user,.programs_options .reset_password{
+ font-family: 'FontAwesome';
+
+}
+
+
+
+.programs_options  fieldset {
+	border: 1px solid #AAAAAA;
+	margin: 0;
+	padding: 0 7px 7px 7px;
+	display: inline-block;
+	vertical-align: bottom;
+	width:90%;
+}
+.programs_options  fieldset legend {
+	font: normal 12px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+	display: block;
+	border:1px solid #AAAAAA;
+	margin-bottom:5px;
+	background:#f0f0f0;
+}
+
+
+.programs_options  .reset_password:before{
+   content: "\f023";
+  
+}
+.programs_options .btns_extnernal{
+  float:left;
+  width:100%;
+  margin-top:5px;
+}
+.programs_options .btn{
+ border:1px solid #333;
+}
+.programs_options .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.programs_options .btns_extnernal  .btns_group{
+     float:right;
+	 margin-right:16px;
+}
+.programs_options .btns_extnernal .btn_ok{
+  float:left;
+  
+
+}
+.programs_options .btns_extnernal .btn_cancel{
+  float:left;
+   
+
+}
+.div_content  .image_program{
+	width:20px;
+	height:20px;
+	
+}
+.div_content .name_program{
+	 font-size:16px;
+	
+}
+.data_permission .select_multiple,.user_except .select_multiple{
+	
+	float:left;
+	margin-left:15px;
+	width:320px;
+}
+
+.programs_options .bootstrap-admin-panel-content{
+	margin-bottom:2px;
+
+	
+}
+

@@ -1,0 +1,154 @@
+
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.wzip.program{
+  
+  height:420px;
+  width:670px;
+  background:#fff;
+   float:left;
+   position: absolute;
+  
+}
+
+.wzip .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.wzip .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.wzip .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.wzip .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.wzip .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.wzip .icon-minus,.wzip .icon-max,.wzip  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.wzip .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.wzip .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .wzip .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+
+ .wzip  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .wzip  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+
+ .wzip   .top{
+  float:left;
+  height:30px;
+  background:#f4f4f4;
+  border-bottom:1px solid #333;
+  width:100%;
+ 
+ 
+ }
+  .wzip   .top  ul{
+    float:left;
+	list-style:none;
+	height:25px;
+	width:100%;
+  
+  }
+  .wzip   .top  ul li{
+     float:left;
+	 display:inline;
+	 margin:0 10px 0 10px;
+  
+  }
+   .wzip   .top a{
+        font-family: 'FontAwesome';
+		font-size:18px;
+		text-decoration:none;
+		cursor:pointer;
+   }
+   .wzip   .top a.new:before{content: "\f067"; color:#028B00;}
+   .wzip   .top a.up:before{content: "\f062"; color:#5E9DA3; }
+   .wzip   .top a.delete:before{content: "\f00d"; color:#8C0001;}
+   .wzip   .top a.extract:before{content: "\f068"; color:#5E9DA3; }
+   .wzip   .top a.info:before{content: "\f129"; color:#CECD00;}
+   .wzip   .top a.zip:before{content: "\f063"; }
+   
+	
+   
+  .wzip   .top  ul li img{
+    float:left;
+	width:25px;
+	height:25px;
+	margin-top:3px;
+  
+  }
+  
+  .wzip  .content_list{
+     height:300px;
+  
+  }

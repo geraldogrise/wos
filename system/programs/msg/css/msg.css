@@ -1,0 +1,99 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.msg.program{
+  
+  height:200px;
+  width:400px;
+  background:#FFF;
+  float:left;
+  position: absolute;
+  
+}
+
+.msg .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.msg .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.msg .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+.msg .window_top{
+  background:#AEC4D9;
+  height: 30px;
+}
+.msg .window_top.sucess{
+   background:#306D05;
+}
+.msg .window_top.error{
+   background:#BE4949;
+}
+.msg .window_top.warning{
+   background:#FFCC01;
+}
+.msg .window_top.info{
+  background:##2443A7;
+}
+.msg .container_msg{
+ float:left;
+ width:100%;
+ margin-top:40px;
+}
+.msg .container_msg img{
+  float:left;
+  margin-left:20px;
+  width:36px;
+  height:40px;
+}
+.msg .container_msg p{
+  float: left;
+  font-size: 18px;
+  margin-left: 8px;
+  width:326px;
+}
+
+
+
+
+.msg .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.msg .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.msg .title_msg{color:#333;}
+.msg .icon-minus,.msg .icon-max,.msg  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+ 
+ .msg  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+ 

@@ -1,0 +1,22 @@
+ Insert Gallery
+Gallery Name
+Confirm
+Cancel
+Create Audio Gallery
+Album Name
+Image
+Gallery
+Insert
+Create Album
+Title of Album
+Track
+Song Name
+Length
+ Insert Event
+Event Name
+Events
+SnapShot
+New Video
+Insert Youtube Video
+Youtube URL
+Description

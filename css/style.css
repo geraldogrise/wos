@@ -1,0 +1,158 @@
+body{
+	/* This image will be displayed fullscreen */
+	background:url('../img/bluebg.jpg') no-repeat center center;
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+    float:left;
+	width:100%;
+	/* The Magic */
+	background-size:cover;
+	margin:0;
+	padding:0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+*{
+margin:0;
+	padding:0;
+}
+
+.form-control{
+ padding:0;
+}
+
+
+
+#bar_bottom .form_clock{
+ width:6%;
+ float:right;
+ height:30px;
+ margin-top:3px;
+ 
+}
+
+#bar_bottom  .clock{
+  width:77%;
+  float:right; 
+  background:none;
+  border:none;
+  font-size:13px;
+  color:white;
+  font-family: "Verdana, Geneva, sans-serif";
+  font-weight:normal;
+  line-height:normal;
+  padding-left:5px;
+}
+
+
+#bar_bottom  span.currentDate{
+  float:left;
+  width:100%;
+  color:white;
+  font-weight:normal;
+  line-height:17px;
+
+  
+}
+#bar_bottom .bar_icons{
+  float:right;
+  width:10px;
+}
+#bar_bottom .bar_icons span.note_icon{
+  color:#fff;
+}
+#bar_bottom .bar_icons span.msg_icon:before{
+ font-family: 'FontAwesome';
+ content: "\f1d7";
+
+}
+#bar_bottom .bar_icons span.note_icon:before{
+ font-family: 'FontAwesome';
+content: "\f249";
+}
+
+.startmenu .menu li a.menuClick{
+   text-decoration:none;
+   background:#fff;
+   opacity: 0.6;
+
+}
+.program{
+
+  position:absolute;
+  top:5%;
+  left:25%;
+  background:none;
+  width:600px;
+  height:auto;
+  background:none;
+  
+}
+.maxWindow{
+   
+   margin:0;
+   padding:0;
+   top:0;
+   left:0;
+
+}
+.upload_style{
+   background:#fff;
+
+
+}
+
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+.window_top_popup {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #333;
+    background-image: url("../images/gui/bar_bottom.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    text-shadow: 0 1px 1px #000;
+}
+.btn_sy_left{
+   float:left;
+   margin-left:5px;
+}
+.btn_sy_right{
+   float:right;
+   margin-right:5px;
+}
+span.back_button:before {
+	font-family: FontAwesome;
+	content: "\f0a8";
+}
+
+span.exit_button:before {
+	font-family: FontAwesome;
+	content: "\f011";
+}
+.workarea .listview {margin-right:30px;}
+
+
+
+
+

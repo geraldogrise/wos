@@ -1,0 +1,144 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.timezone.program{
+  
+  height:193px;
+  width:401px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.timezone .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.timezone .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.timezone .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.timezone .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.timezone .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.timezone .icon-minus,.timezone .icon-max,.timezone  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+ .timezone  .div_content label{
+	 margin-top:3px;
+	 
+ }
+ .timezone  .window_content{
+    background:#f0f0f0;
+ 
+ }
+ .timezone  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .timezone  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .timezone  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+
+  
+
+.timezone .btns_extnernal{
+  float:left;
+  width:100%;
+  margin-top:5px;
+}
+.timezone .btn{
+ border:1px solid #333;
+}
+.timezone .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.timezone .btns_extnernal  .btns_group{
+     float:right;
+	 margin-right:16px;
+}
+.timezone .btns_extnernal .btn_ok{
+  float:left;
+  width: 80px;
+  
+
+}
+.timezone .btns_extnernal .btn_cancel{
+  float:left;
+  width: 80px;
+   
+
+}
+.timezone .content_timezone{
+
+  float:left;
+  width:100%;
+}
+.timezone .content_timezone h1{
+   float:left;
+   font-size:18px;
+   margin-left:10px;
+   border-bottom:1px solid #333;
+   width:92%;
+
+}
+
+.timezone  .select_timezone{
+   float:left;
+   width:92%;
+   height:30px;
+   margin-top:10px;
+   margin-left:10px;
+
+}
+
+.timezone .info_timezone{
+  float:left;
+  width:90%;
+  margin-left:10px;
+  color:#006699;
+  margin-top: 20px;
+
+}

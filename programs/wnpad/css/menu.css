@@ -1,0 +1,140 @@
+ .menu_wnpad{
+	float:left;
+	width:100%;
+	background:#f0f0f0;
+}
+.menu_wnpad .dropdown-toggle{
+  background:#f0f0f0 !important;
+   
+}
+.btn-menu{
+   font-family: 'FontAwesome';
+   
+}
+.icon-new:before{
+ content: "\f016";
+}
+.icon-open:before{
+  content: "\f115";
+}
+
+
+
+.icon-import:before{
+  content: "\f093";
+}
+.icon-export:before{
+  content: "\f019";
+}
+.icon-exit:before{
+  content: "\f011";
+}
+
+
+
+
+.icon-undo:before{
+  content: "\f112";
+}
+.icon-redo:before{
+  content: "\f064";
+}
+
+.icon-cut:before{
+  content: "\f0c4";
+}
+.icon-copy:before{
+  content: "\f0c5";
+}
+.icon-paste:before{
+  content: "\f0ea";
+}
+
+.icon-options:before{
+ content: "\f0e3";
+}
+.icon-config:before{
+ content: "\f013";
+}
+
+.icon-find:before {
+   
+	content: "\f002";
+}
+.icon-findprev:before {
+
+   content: "\f049";
+}
+.icon-findnext:before {
+
+   content: "\f050";
+}
+.icon-replace:before {
+
+   content: "\f010";
+}
+.icon-replaceall:before {
+
+   content: "\f00e";
+}
+
+.icon-markline:before {
+
+   content: "\f07e";
+}
+
+
+
+.icon-fold:before {
+
+   content: "\f062";
+}
+.icon-foldall:before {
+
+   content: "\f0aa";
+}
+
+.icon-unfold:before {
+
+   content: "\f063";
+}
+.icon-unfoldall:before {
+
+   content: "\f0ab";
+}
+.icon-deleteline:before {
+
+   content: "\f00d -";
+}
+.icon-newline:before {
+
+   content: "\f067 -";
+}
+.icon-inserttab:before {
+
+   content: "\f03c";
+}
+
+
+
+
+
+
+
+.icon-comment:before {
+	
+	content: "\f075";
+}
+.icon-uncomment:before {
+	
+	content: "\f0e5";
+}
+.icon-marktext:before {
+	
+	content: "\f02e";
+}
+.icon-autoformat:before {
+	
+	content: "\f039";
+}
+

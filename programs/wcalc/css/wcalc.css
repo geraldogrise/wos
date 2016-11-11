@@ -1,0 +1,132 @@
+
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.wcalc.program{
+  
+  height:340px;
+  width:500px;
+  background:#000;
+   float:left;
+   position: absolute;
+  
+}
+
+.calc-main { /* center / center */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -170px;
+	margin-left: -250px;
+}
+.calc-small {
+	margin-left: -130px;
+}
+
+.wcalc .window_inner{
+   height:358px;
+}
+
+.wcalc .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.wcalc .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.wcalc .top_bar{
+  float:left;
+  width:100%;
+
+}
+
+
+.wcalc .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.wcalc .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.wcalc .icon-minus,.wcalc .icon-max,.wcalc  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.wcalc .modal-body {
+  float:left;
+  width:100%;
+  height:95%;
+  background:#000;
+ 
+  
+}
+
+.wcalc .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .wcalc .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+
+ .wcalc  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .wcalc  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+.wysiwyg-input        {position:relative;}
+.wysiwyg-input body{height:300px;}
+.wysiwyg-input {position:absolute;top:68;left:0;width:100%;height:78%}
+
+ .wcalc  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+
+.window_content{
+  overflow-x:none;
+  overflow-y:none;
+  bottom:0;
+}

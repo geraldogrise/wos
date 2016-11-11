@@ -1,0 +1,166 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.datetime.program{
+  
+  height:410px;
+  width:485px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.datetime .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.datetime .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.datetime .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.datetime .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.datetime .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.datetime .icon-minus,.datetime .icon-max,.datetime  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+ .datetime  .div_content label{
+	 margin-top:3px;
+	 
+ }
+ .datetime  .window_content{
+    background:#f0f0f0;
+ 
+ }
+ .datetime  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .datetime  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .datetime  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+
+  
+
+.datetime .btns_extnernal{
+  float:left;
+  width:100%;
+  margin-top:5px;
+}
+.datetime .btn{
+ border:1px solid #333;
+}
+.datetime .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.datetime .btns_extnernal  .btns_group{
+     float:right;
+	 margin-right:16px;
+}
+.datetime .btns_extnernal .btn_ok{
+  float:left;
+  width: 80px;
+  
+
+}
+.datetime .btns_extnernal .btn_cancel{
+  float:left;
+  width: 80px;
+   
+
+}
+.datetime .content_datetime{
+
+  float:left;
+  width:100%;
+  height: 325px;
+ 
+}
+.datetime .content_datetime h1{
+   float:left;
+   font-size:18px;
+   margin-left:10px;
+   border-bottom:1px solid #333;
+   width:92%;
+
+}
+.datetime .input_datapicker{
+ 
+}
+
+.datetime .local_datetime{
+  float:left;
+  margin-top:18px;
+  margin-left:10px;
+  width:236px;
+
+}
+
+.datetime .grp_info{
+  float:left;
+  margin-top:10px;
+ 
+}
+.datetime .local_time{
+  float:left;
+}
+.datetime .popover{
+  float:left;
+}
+.ui-datepicker-current-day{
+   background:#006699;
+
+}
+
+.datetime .dt_title{
+   height:42px;
+   background:#fff;
+   border:1px solid #333;
+   text-align: center;
+    font-size: 18px;
+	margin-bottom:15px;
+	width:230px;
+   
+}

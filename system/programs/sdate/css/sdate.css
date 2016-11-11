@@ -1,0 +1,278 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.sdate.program{
+  
+  height:344px;
+  width:501px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+  
+  
+}
+
+.sdate .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.sdate .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.sdate .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.sdate .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.sdate .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.sdate .icon-minus,.sdate .icon-max,.sdate  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.sdate .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.sdate .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .sdate .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+ .sdate  .window_content{
+    background:#f0f0f0;
+ 
+ }
+ .sdate  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .sdate  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .sdate  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+ .sdate .container_wizard {
+   
+   color:#333;
+   width:90%;
+   margin:0 auto;
+   border:1px solid #333;
+   height:82%;
+   margin-top:2%;
+   background:#fff;
+
+}
+.sdate .title_wizard {
+   width:66%;
+   float:right;
+   margin-top:5px;
+   background:#fff ;
+   height:63%;
+   
+}
+
+.sdate .title_wizard h1 {
+  font-style:bold;
+  color:#333;
+  font-size:20px;
+   margin-left:5px;
+}
+.sdate .title_wizard  span{
+  float:left;
+  width:99%;
+  margin-top:4px;
+  margin-left:5px;
+   
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+.sdate .btns_extnernal{
+    width:90%;
+   margin:5px auto;
+}
+.sdate .btn{
+ border:1px solid #333;
+}
+.sdate .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.sdate .btns_extnernal  .btns_group{
+     float:right;
+	
+}
+.sdate .btns_extnernal .btn_ok{
+  float:left;
+  
+
+}
+.sdate .btns_extnernal .btn_cancel{
+  float:left;
+   
+
+}
+.sdate  .clock_side{
+ float:left;
+
+}
+.sdate .btns_extnernal .btn_back{
+  float:left;
+   
+
+}
+
+ .sdate    .clock {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 5px auto 0 auto;
+    background: url(images/clockface150.jpg);
+    list-style: none;
+ }
+        
+.sdate   .secs, .mins, .hours {
+    position: absolute;
+    width: 8px;
+    height: 150px;
+    top: 0px;
+    left: 72px;
+}
+        
+.sdate   .secs{
+   background: url(images/sechand300.png);
+   z-index: 3;
+}
+           
+.sdate   .mins {
+   background: url(images/minhand300.png);
+   z-index: 2;
+}
+           
+.sdate  .hours {
+   background: url(images/hourhand300.png);
+   z-index: 1;
+}
+
+.sdate  .date_view_s  ,.sdate  .time_view{
+  width:100%;
+  float:left;
+  margin-top:20px;
+  height:30px;
+
+}
+.sdate  .time_view  input{
+  float:left;
+  border:none;
+
+}
+.sdate  .currentDate{
+  margin-top:2px;
+}
+.sdate  .date_view_s  label,.sdate  .time_view label{
+  float:left;
+  width:100%;
+
+}
+.sdate  .btn{
+ float:right;
+ margin-right:10px;
+}
+.in_btn{
+  width:16px;
+  height:16px;
+
+}
+.sdate .timezone{
+ 
+  width:90%;
+  margin:0 auto;
+  
+}
+.sdate .timezone img{
+  width:20px;
+  height:20px;
+  float:left;
+}
+.sdate .timezone .title_timezone{
+ float:left;
+ border-bottom:1px solid #333;
+ width:100%;
+
+}
+.sdate .timezone  span{padding-top:2px; float:left;}
+
+           	
+
+
+

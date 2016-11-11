@@ -1,0 +1,274 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.wopen.program{
+  
+  height:434px;
+  width:401px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.wopen .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.wopen .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.wopen .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.wopen .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.wopen .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.wopen .icon-minus,.wopen .icon-max,.wopen  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+ .wopen  .div_content label{
+	 margin-top:3px;
+	 
+ }
+ .wopen  .window_content{
+    background:#f0f0f0;
+ 
+ }
+ .wopen  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .wopen  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .wopen  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+ .wopen .container_users {
+   background:#fff;
+   color:#333;
+   width:90%;
+   margin:0 auto;
+   border:1px solid #333;
+   height:86%;
+   margin-top:2%;
+
+}
+.wopen .title_open {
+   width:90%;
+   margin: 0 auto;
+   margin-top:10px;
+   margin-bottom:10px;
+   
+}
+.wopen .title_open  img{
+   float:left;
+   width:24px;
+}
+.wopen .title_open  span{
+  float:left;
+  width:80%;
+  margin-left:10px;
+}
+.div_content{
+  margin:0 auto;
+ 
+  
+
+}
+
+.div_content .btns{
+  float:left;
+  width:100%;
+  margin-top:10px;
+  height:30px;
+
+}
+
+.div_content .btn{
+ 
+  background: #D2D2D2;
+}
+
+.wopen .btn_reset_password{
+ float:right;
+}
+
+
+
+.wopen .remove_user,.wopen .add_user,.wopen .reset_password{
+ font-family: 'FontAwesome';
+
+}
+.wopen  .add_user:before{
+   content: "\f234";
+}
+.wopen .remove_user:before{
+ content: "\f235";
+}
+
+.wopen .div_reset{
+ float:left;
+ width:100%;
+ margin-top:10px;
+
+}
+.wopen .div_reset span{
+ float:left;
+  width:70%;
+
+}
+.wopen  fieldset {
+	border: 1px solid #AAAAAA;
+	margin: 0;
+	padding: 0 7px 7px 7px;
+	display: inline-block;
+	vertical-align: bottom;
+	width:90%;
+}
+.wopen  fieldset legend {
+	font: normal 12px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+	display: block;
+	border:1px solid #AAAAAA;
+	margin-bottom:5px;
+	background:#f0f0f0;
+}
+
+
+.wopen  .reset_password:before{
+   content: "\f023";
+  
+}
+.wopen .btns_extnernal{
+  float:left;
+  width:100%;
+  margin-top:5px;
+}
+.wopen .btn{
+ border:1px solid #333;
+}
+.wopen .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.wopen .btns_extnernal  .btns_group{
+     float:right;
+	 margin-right:16px;
+}
+.wopen .btns_extnernal .btn_ok{
+  float:left;
+  
+
+}
+.wopen .btns_extnernal .btn_cancel{
+  float:left;
+   
+
+}
+.wopen  .grise_btn_generate{
+  float:left;
+  width:100%;
+  margin-top:20px;
+}
+.wopen .grise_btn_generate button{
+ float:right;
+}
+.wopen .generate_password{
+ font-family: 'FontAwesome';
+
+}
+.wopen  .generate_password:before{
+   content: "\f023";
+}
+.wopen .open_type{
+   float:left;
+   width:100%;
+   border:1px solid #333;
+   min-height:260px;
+   overflow-y:acroll;
+
+}
+
+.wopen .open_type ul{
+   list-style:none;
+   float:left;
+   margin:0;
+   padding:0;
+   width:100%;
+
+ 
+   
+    
+}
+.wopen .open_type ul li{
+    float:left;
+    width:48%;
+	margin-bottom:5px;
+	margin-top:5px;
+	
+}
+.wopen .open_type ul li:hover{
+  cursor:pointer;
+}
+.wopen .open_type ul li a:hover{
+  cursor:pointer;
+}
+.wopen .open_type ul li a img{
+
+   width:25px;
+   height:25px;
+} 
+.wopen .open_type ul li.selected{
+   float:left;
+   border:2px solid #006699;
+   background:#d1e8ff;
+   width:48%;
+} 
+.wopen .div_griseset{
+  margin:0 auto;
+  width:90%;
+ 
+  
+
+}
+
+
+
+

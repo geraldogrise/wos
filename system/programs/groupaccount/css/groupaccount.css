@@ -1,0 +1,273 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.groupaccount.program{
+  
+  height:450px;
+  width:400px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.groupaccount .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.groupaccount .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.groupaccount .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.groupaccount .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.groupaccount .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.groupaccount .icon-minus,.groupaccount .icon-max,.groupaccount  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.groupaccount .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.groupaccount .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .groupaccount .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+
+ .groupaccount  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .groupaccount  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .groupaccount  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+.title_users {
+   width:100%;
+   float:left;
+   margin-top:5px;
+   
+}
+.title_users  img{
+   float:left;
+   width:48px;
+}
+.title_users  span{
+  float:left;
+  width:70%;
+}
+.div_content{
+  margin:0 auto;
+  width:90%;
+  
+
+}
+    
+ .div_content .tabela{
+    float:left;
+	border:1px solid #333;
+	width:100%;
+    border-collapse: collapse;
+ 
+ }
+ .div_content .tabela th{
+   background:#f0f0f0;
+   border-bottom:1px solid #333;
+   padding: 0 5px;
+   height: 26px;
+   font-size: 12px;
+    vertical-align:middle;
+ }
+.div_content .tabela th.td_name{
+ 
+ border-right:1px solid #ccc;
+
+ 
+ }
+ .div_content .tabela th.td_grp{
+   
+	 border-right:1px solid #333;
+	
+ }
+
+.div_content .tabela td{
+  padding: 0 5px;
+  height: 26px;
+  font-size: 12px;
+  vertical-align:middle;
+}
+.div_content .tabela tr.active td{
+ background:#3399FF;
+ color:#fff;
+
+}
+.groupaccount .pagination-container .pagination{
+	margin:2px 0;
+	
+}
+.div_content .tabela td.pagin{
+	
+	text-align: right;
+}
+
+
+.div_content .btns{
+  float:left;
+  width:100%;
+  margin-top:10px;
+  height:30px;
+
+}
+
+.div_content .btn{
+ 
+  background: #D2D2D2;
+}
+
+.groupaccount .btn_reset_password{
+ float:right;
+}
+
+
+
+.groupaccount .remove_user,.groupaccount .add_user,.groupaccount .reset_password{
+ font-family: 'FontAwesome';
+
+}
+.groupaccount  .add_user:before{
+   content: "\f234";
+}
+.groupaccount .remove_user:before{
+ content: "\f235";
+}
+
+.groupaccount .div_reset{
+ float:left;
+ width:100%;
+ margin-top:10px;
+
+}
+.groupaccount .div_reset span{
+ float:left;
+  width:70%;
+
+}
+.groupaccount  fieldset {
+	border: 1px solid #AAAAAA;
+	margin: 0;
+	padding: 0 7px 7px 7px;
+	display: inline-block;
+	vertical-align: bottom;
+	width:90%;
+}
+.groupaccount  fieldset legend {
+	font: normal 12px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+	display: block;
+	border:1px solid #AAAAAA;
+	margin-bottom:5px;
+	background:#f0f0f0;
+}
+
+
+.groupaccount  .reset_password:before{
+   content: "\f023";
+  
+}
+.groupaccount .btns_extnernal{
+  float:left;
+  width:100%;
+  margin-top:15px;
+}
+.groupaccount .btn{
+ border:1px solid #333;
+}
+.groupaccount .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.groupaccount .btns_extnernal  .btns_group{
+     float:right;
+	 margin-right:16px;
+}
+.groupaccount .btns_extnernal .btn_ok{
+  float:left;
+  
+
+}
+.groupaccount .btns_extnernal .btn_cancel{
+  float:left;
+   
+
+}
+
+
+
+
+     
+
+           	

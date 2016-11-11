@@ -1,0 +1,210 @@
+﻿.gips-container
+{
+    height: 150px;
+    width: 230px;
+    position: absolute;
+	opacity:0.9;
+	z-index:9999999;
+	
+	
+}
+.gips-container .tab_program {
+   border:1px solid #fff;
+   background:#B3BDC9;
+   width:195px;
+   height: 115px;
+   margin-top:5px;
+   border-radius:5px; 
+   float:left;
+   margin-left:10px;
+   
+   
+}
+.gips-container .thumb{
+   margin-top:5px;
+}
+
+.gips-container div a.program_reference
+{
+  float:left;
+  color:#fff;
+  font-size:15px;
+  text-decoration:none;
+  padding:5px 0;
+  margin-left:10px;
+  font-weight: bold;
+  width:166px;
+ 
+}
+.gips-container div a span{
+   font-size:12px;
+   color:#fff;
+   
+}
+.gips-body
+{
+    color: White;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 10px;
+   width: 230px;
+    height: 118px;
+    padding: 10px;
+    padding-right:20px;
+    position: relative;
+    float: left;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    behavior: url(PIE.htc);
+	overflow-y:none;
+	overflow-x:auto;
+	max-width:1100px;
+}
+.gips-body.purple
+{
+    background-color: #D22769;
+}
+
+.gips-body.yellow
+{
+    background-color: #D5AF1C;
+}
+.gips-body.red
+{
+    background-color: #CB2026;
+}
+.gips-body.green
+{
+    background-color: #72A159;
+}
+.gips-body.blue
+{
+    background-color: #75869A;
+	
+}
+.gips-close
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 5px;
+}
+.program_close
+{
+    float: right;
+     cursor: pointer;
+
+
+    
+}
+a.a_close{
+  float:right;
+  margin-top:2px;  
+  margin-right:2px;  
+  
+  
+}
+.gips-icon
+{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px;
+    position:absolute;
+	
+	left:5%
+	
+}
+/*icon at the bottom */
+.gips-icon-bottom
+{
+    margin-left: 12px;
+}
+.gips-icon-bottom.purple
+{
+    border-color: #D22769 transparent transparent transparent;
+}
+.gips-icon-bottom.red
+{
+    border-color: #CB2026 transparent transparent transparent;
+}
+.gips-icon-bottom.yellow
+{
+    border-color: #D5AF1C transparent transparent transparent;
+}
+.gips-icon-bottom.green
+{
+    border-color: #72A159 transparent transparent transparent;
+}
+.gips-icon-bottom.blue
+{
+    border-color: #75869A transparent transparent transparent;
+}
+
+/*icon at the top*/
+
+.gips-icon-top
+{
+    margin-left: 12px;
+}
+.gips-icon-top.purple
+{
+    border-color: transparent transparent #D22769 transparent;
+}
+.gips-icon-top.red
+{
+    border-color: transparent transparent #CB2026 transparent;
+}
+.gips-icon-top.yellow
+{
+    border-color: transparent transparent #D5AF1C transparent;
+}
+.gips-icon-top.green
+{
+    border-color: transparent transparent #72A159 transparent;
+}
+/*icon at the left*/
+
+.gips-icon-left
+{
+    margin-top: 12px; /*   float: left;*/
+}
+.gips-icon-left.purple
+{
+    border-color: transparent #D22769 transparent transparent;
+}
+.gips-icon-left.red
+{
+    border-color: transparent #CB2026 transparent transparent;
+}
+.gips-icon-left.yellow
+{
+    border-color: transparent #D5AF1C transparent transparent;
+}
+.gips-icon-left.green
+{
+    border-color: transparent #72A159 transparent transparent;
+}
+/*icon at the right*/
+
+.gips-icon-right
+{
+    margin-top: 12px;
+}
+.gips-icon-right.purple
+{
+    border-color: transparent transparent transparent #D22769;
+}
+.gips-icon-right.red
+{
+    border-color: transparent transparent transparent #CB2026;
+}
+.gips-icon-right.yellow
+{
+    border-color: transparent transparent transparent #D5AF1C;
+}
+.gips-icon-right.green
+{
+    border-color: transparent transparent transparent #72A159;
+}

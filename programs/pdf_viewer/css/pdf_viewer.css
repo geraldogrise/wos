@@ -1,0 +1,102 @@
+
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.pdf_viewer.program{
+  
+  height:546px;
+  width:900px;
+  background:#4A4A4A;
+  padding-top:5px;
+  top: 3%;
+  float:left;
+   position: absolute;
+  
+}
+.pdf_viewer iframe{
+  padding:0;
+  margin:0;
+}
+
+.pdf_viewer_iframe{
+   float:left;
+   padding:0 !important;
+   width:100% !important;
+   height: 100%;
+   
+   
+}
+  
+.pdf_viewer .modal-header_window {
+    background: none repeat scroll 0 0 #4A4A4A;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.pdf_viewer .top_bar{
+  float:left;
+  width:100%;
+  margin-top:5px;
+}
+
+
+.pdf_viewer .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.pdf_viewer .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+   color:#F4F4F4;
+}
+.pdf_viewer .icon-minus,.pdf_viewer .icon-max,.pdf_viewer  .icon-close{
+  color:#F4F4F4;
+
+}
+.pdf_viewer .icon-minus:hover,.pdf_viewer .icon-max:hover,.pdf_viewer  .icon-close:hover{
+  color:#FFF;
+
+}
+
+
+
+
+.pdf_viewer .modal-body {
+  float:left;
+  width:100%;
+  background:#fff;
+  height: 90%;
+ 
+  
+}
+
+.pdf_viewer .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .pdf_viewer .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}

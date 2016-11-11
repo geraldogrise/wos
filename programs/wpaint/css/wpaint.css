@@ -1,0 +1,91 @@
+
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.wpaint.program{
+  
+  height:546px;
+  width:900px;
+  background:#4A4A4A;
+  padding-top:5px;
+  top: 3%;
+  left:15%;
+  float:left;
+   position: absolute;
+  
+}
+
+  
+.wpaint .modal-header_window {
+    background: none repeat scroll 0 0 #4A4A4A;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.wpaint .top_bar{
+  float:left;
+  width:100%;
+  margin-top:5px;
+}
+
+
+.wpaint .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.wpaint .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+   color:#F4F4F4;
+}
+.wpaint .icon-minus,.wpaint .icon-max,.wpaint  .icon-close{
+  color:#F4F4F4;
+
+}
+.wpaint .icon-minus:hover,.wpaint .icon-max:hover,.wpaint  .icon-close:hover{
+  color:#FFF;
+
+}
+
+
+
+
+.wpaint .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.wpaint .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .wpaint .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}

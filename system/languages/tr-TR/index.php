@@ -1,0 +1,203 @@
+<?php
+
+/*-------------Turkish --------------*/
+$language =array();
+$language['system']['file'] = 'Dosya';
+$language['system']['new'] = 'Yeni';
+$language['system']['open'] = 'Açık';
+$language['system']['save'] = 'Kurtarmak';
+$language['system']['import'] = 'Ithalat';
+$language['system']['export'] = 'Ihracat';
+$language['system']['print'] = 'Baskı';
+$language['system']['exit'] = 'Çıkmak';
+
+$language['system']['edit'] = 'Düzenlemek';
+$language['system']['undo'] = 'Geri';
+$language['system']['redo'] = 'Yeniden yapmak';
+$language['system']['copy'] = 'Kopya';
+$language['system']['cut'] = 'Kesim';
+$language['system']['paste'] = 'Macun';
+
+$language['system']['search'] = 'arama';
+$language['system']['find'] = 'bulmak';
+$language['system']['findnext'] = 'Sonrakini Bul';
+$language['system']['findprev'] = 'Önceki bul';
+$language['system']['replace'] = 'değiştirmek';
+$language['system']['replaceall'] = 'Tümünü Değiştir';
+
+$language['system']['view'] = 'görünüm';
+$language['system']['markline'] = 'Mark Hattı';
+$language['system']['deleteline'] = 'Hattı Sil';
+$language['system']['newline'] = 'yeni satır';
+$language['system']['inserttab'] = 'Ekle Sekmesi';
+$language['system']['fold'] = 'kat';
+$language['system']['unfold'] = 'açılmak';
+$language['system']['foldall'] = 'Hepsi Fold';
+$language['system']['unfoldall'] = 'Tümünü Çıkar';
+
+$language['system']['tools'] = 'Araçlar';
+$language['system']['comment'] = 'açıklama';
+$language['system']['uncomment'] = 'Uncomment';
+$language['system']['marktext'] = 'Mark Metin';
+$language['system']['removemark'] = 'Mark kaldır';
+$language['system']['removeallmark'] = 'Tüm Mark kaldır';
+$language['system']['autoformat'] = 'Otomatik Format';
+$language['system']['configuration'] = 'Yapılandırma';
+$language['system']['options'] = 'Seçenekleri';
+
+$language['system']['help'] = 'Yardım';
+
+
+
+
+$language['system']['control_panel'] = 'Kontrol Paneli';
+$language['system']['adjust_settings_computer'] = 'Bilgisayar Ayarlarını Yapma';
+$language['system']['security'] = 'güvenlik';
+$language['system']['folder_options'] = 'dosya seçenekleri';
+$language['system']['backup'] = 'yedek';
+$language['system']['programs'] = 'programlar';
+$language['system']['user_account'] = 'kullanıcı hesabı';
+$language['system']['appearance'] = 'görünüm';
+$language['system']['start_menu'] = 'başlangıç menüsü';
+$language['system']['system'] = 'sistem';
+$language['system']['languages'] = 'dil';
+$language['system']['fonts'] = 'fontlar';
+$language['system']['date'] = 'tarih';
+$language['system']['configure_backup'] = 'Yedekleme yapılandırma';
+$language['system']['select_location_store'] = 'saklamak için bir konum seçin.';
+$language['system']['user'] = 'kullanıcı';
+$language['system']['create'] = 'oluşturmak';
+$language['system']['new_local'] = 'yerel yeni';
+$language['system']['remove'] = 'Kaldır';
+$language['system']['next'] = 'Sonraki';
+$language['system']['cancel'] = ' iptal';
+$language['system']['program_list'] = 'programlar listesinde';
+$language['system']['install'] = 'kurmak';
+$language['system']['store'] = 'mağaza';
+$language['system']['name'] = 'isim';
+$language['system']['group'] = 'grup';
+$language['system']['user_account_settings'] = 'kullanıcı hesabı ayarları';
+$language['system']['user_group_account_settings'] = 'kullanıcı grubu hesabı ayarları';
+$language['system']['new_user'] = 'yeni kullanıcı';
+$language['system']['reset'] = 'reset';
+$language['system']['new_group'] = 'yeni Grup';
+$language['system']['parent_group'] = 'üst grup';
+$language['system']['add_user_title'] = 'vermek veya bilgisayara kullanıcıların erişimini engellemek ve şifreleri sıfırlamak için aşağıdaki listeyi kullanın.';
+$language['system']['permission'] = 'izin';
+$language['system']['permission_group'] = 'izin grubu';
+$language['system']['update_available'] = 'Önemli güncelleştirmeler kullanılabilir';
+$language['system']['optional_available'] = 'isteğe bağlı güncelleştirmeler mevcut';
+$language['system']['system_information'] = 'sistem bilgisi';
+$language['system']['operation_system'] = 'işletim sistemi';
+$language['system']['version'] = 'versiyon';
+$language['system']['memory_usage'] = 'hafıza kullanımı';
+$language['system']['peak_memory_usage'] = 'tepe bellek kullanımı';
+$language['system']['browser_name'] = 'tarayıcı adı';
+$language['system']['plataform'] = 'platform';
+$language['system']['system_languages'] = 'sistem dilleri';
+$language['system']['title_language_system'] = 'Sistem dilini değiştirmek için kullanın.';
+$language['system']['new_font'] = 'yeni yazı';
+$language['system']['path'] = 'yol';
+$language['system']['time'] = 'zaman';
+$language['system']['change_date'] = 'tarihi değiştir';
+$language['system']['change_timezone'] = 'değişiklik saat dilimi';
+$language['system']['title_change_date'] = 'Tarih ve zamanlamasını ayarlamak';
+$language['system']['time_zone'] = 'saat dilimi';
+$language['system']['current_date_hours'] = 'Güncel tarih ve saat';
+$language['system']['desktop'] = 'masaüstü';
+$language['system']['library'] = 'kütüphane';
+$language['system']['documents'] = 'evraklar';
+$language['system']['images'] = 'görüntüleri';
+$language['system']['musics'] = 'müzikler';
+$language['system']['videos'] = 'videolar';
+$language['system']['login_settings'] = 'giriş ayarları';
+$language['system']['login_type'] = 'bağlantı türü';
+$language['system']['login_encrypt'] = 'giriş şifrelemek';
+$language['system']['number_bits'] = 'bit sayısı';
+$language['system']['number_attemps'] = 'sayı girişimleri';
+$language['system']['password_force'] = 'şifre gücü';
+$language['system']['enable_security_question'] = 'Güvenlik sorunuzu etkinleştirme';
+$language['system']['enable_capctha'] = 'captcha\'yı etkinleştirme';
+$language['system']['capctha_type'] = 'kaptan tipi';
+$language['system']['change'] = 'değişim';
+$language['system']['poor'] = 'yoksul';
+$language['system']['good'] = 'iyi';
+$language['system']['excellent'] = ' mükemmel';
+$language['system']['search'] = 'arama';
+$language['system']['custom_settings'] = 'özel ayarlar';
+$language['system']['change_theme'] = 'temayı değiştir';
+$language['system']['change_account_image'] = 'değişim hesabı görüntü';
+$language['system']['change_mouse_icon'] = 'değişiklik fare simgesi';
+$language['system']['theme_settings'] = 'tema ayarları';
+$language['system']['create_theme_folder'] = 'Tema klasörü oluşturmak';
+$language['system']['add_theme_from_wos'] = 'WOS dan tema ekleme';
+$language['system']['upload_from_computer'] = 'bilgisayardan yüklemek';
+$language['system']['set'] = 'set';
+$language['system']['title_install'] = 'programlar kurulum sihirbazı hoş geldiniz';
+$language['system']['description_install'] = 'kurulum sihirbazı, onarım değiştirmek için yardımcı olacak ve programı kaldırmak olacaktır.';
+$language['system']['extract'] = 'özüt';
+
+
+$language['system']['ok']= 'ok';
+$language['system']['Email']= "E-posta";
+$language['system']['login']= "oturum aç"; 
+$language['system']['password']= "parola";
+$language['system']['choose_mouse']= "Hesabınız için fare simgesini seçin";
+$language['system']['chouse_mouse_description']= "seçilen fare simgesi ekranda belirecektir";
+$language['system']['search_wos']= "WOS ara";
+$language['system']['change_image']= "Resmi değiştir";
+$language['system']['upload_from_your_computer']= "Bilgisayarınızdan yükleyin";
+$language['system']['choose_new_picture']= "Hesabınız için yeni bir resim seçin";
+$language['system']['choose_new_picture_description']= "seçilen görüntü giriş ekranında görünecektir";
+$language['system']['repeat']= "tekrar";
+$language['system']['title_user_list']= "gruplar bilgisayara erişen kullanıcıları vermek veya reddetmek için aşağıdaki listeyi kullanın.";
+$language['system']['user_this_wos']= "Kullanıcı Grubu bu Wos";
+$language['system']['back']= "Geri";
+$language['system']['user_description']= "hibe veya kullanıcılara bilgisayar programlarına erişimini engellemek için aşağıdaki listeyi kullanın.";
+$language['system']['allowed_group']= "İzin Grupları";
+$language['system']['users_denied']= "Kullanıcılar Reddedildiı";
+$language['system']['programs_permission']= "KProgramlar İzin";
+$language['system']['deny_users']= "kullanıcıları Reddet";
+$language['system']['new_password']= "Yeni Şifre";
+$language['system']['confirm_password']= "Şifreyi Onayla";
+$language['system']['captcha']= "Captcha";
+$language['system']['set_time_zone']= "Set zaman dilimi";
+$language['system']['reset_password']= "Şifreyi yenile";
+$language['system']['change_passwod_title']= "parolasını değiştirmek için, Parolayı Sıfırla tıklayın";
+$language['system']['compress']= "kompres";
+$language['system']['back_restore']= "Yedekleme veya dosyalarınızı geri";
+$language['system']['w0s_edition']= "Wos Sürümü";
+$language['system']['system']= "sistem";
+$language['system']['browser_information']= "tarayıcı Bilgileri";
+$language['system']['my_computer']= "Benim bilgisayarım";
+$language['system']['select_zip_file']= "programı yükleyin için seçin Zip Dosyası girişi";
+
+
+$language['system']['insert_gallery']="Ekle Galeri";
+$language['system']['gallery_name']="Galeri Adı";
+$language['system']['confirm']="onaylamak";
+$language['system']['cancel']="İptal";
+$language['system']['create_audio_gallery']="Ses Galerisi oluşturma";
+$language['system']['album_name']="albüm Adı";
+$language['system']['image']="görüntü";
+$language['system']['gallery']="galeri";
+$language['system']['insert']="Ekle";
+$language['system']['create_album']="Albüm oluştur";
+$language['system']['title_of_album']="Albüm Adı";
+$language['system']['track']="iz";
+$language['system']['song_name']="Şarkı adı";
+$language['system']['length']="uzunluk";
+$language['system']['insert_event']="Ekle Olay";
+$language['system']['event_name']="Etkinlik Adı";
+$language['system']['events']="Olaylar";
+$language['system']['snapshot']="Enstantane fotoğraf";
+$language['system']['new_video']="yeni video";
+$language['system']['insert_youtube_video']="Youtube Video ekleme";
+$language['system']['youtube_url']="Youtube URL";
+$language['system']['description']="tanım";
+$language['system']['generate']="oluşturmak";
+
+$language['system']['default_program_title']="Bu dosyayı açmak için kullanılacak programı seçmeniz";
+$language['system']['set_default']="Varsayılan olarak ayarlanan programı";
+
+?>

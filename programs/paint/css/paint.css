@@ -1,0 +1,103 @@
+
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.paint.program{
+  
+  height:420px;
+  width:505px;
+  background:#f4f4f4;
+  padding-top:5px;
+  top: 3%;
+  left:15%;
+  float:left;
+   position: absolute;
+  
+}
+.paint .dropdown-menu{
+  z-index:2147483647;
+}
+.paint .paint_area{
+
+   float:left; 
+   width:500px;
+   height:300px; 
+   background:#f4f4f4; 
+   border-left:solid black 1px;
+   border-right:solid black 1px;
+   margin-top:50px;
+}
+  
+.paint .modal-header_window {
+    background: none repeat scroll 0 0 #4A4A4A;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.paint .top_bar{
+  float:left;
+  width:100%;
+  margin-top:5px;
+}
+
+
+.paint .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.paint .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+   color:#F4F4F4;
+}
+.paint .icon-minus,.paint .icon-max,.paint  .icon-close{
+  color:#F4F4F4;
+
+}
+.paint .icon-minus:hover,.paint .icon-max:hover,.paint  .icon-close:hover{
+  color:#FFF;
+
+}
+
+
+
+
+.paint .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.paint .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .paint .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}

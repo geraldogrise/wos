@@ -1,0 +1,59 @@
+ .menu_wnpad{
+	float:left;
+	width:100%;
+	background:#f0f0f0;
+}
+.menu_wnpad .dropdown-toggle{
+  background:#f0f0f0 !important;
+   
+}
+.btn-menu{
+   font-family: 'FontAwesome';
+   
+}
+.icon-new:before{
+ content: "\f016";
+}
+.icon-open:before{
+  content: "\f115";
+}
+
+
+
+.icon-import:before{
+  content: "\f093";
+}
+.icon-export:before{
+  content: "\f019";
+}
+.icon-exit:before{
+  content: "\f011";
+}
+
+
+
+
+.icon-undo:before{
+  content: "\f112";
+}
+.icon-redo:before{
+  content: "\f064";
+}
+
+.icon-cut:before{
+  content: "\f0c4";
+}
+.icon-copy:before{
+  content: "\f0c5";
+}
+.icon-paste:before{
+  content: "\f0ea";
+}
+
+.icon-options:before{
+ content: "\f0e3";
+}
+.icon-config:before{
+ content: "\f013";
+}
+

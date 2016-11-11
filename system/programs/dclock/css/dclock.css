@@ -1,0 +1,142 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.dclock.program{
+  
+  height:337px;
+  width:301px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.dclock .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.dclock .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.dclock .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.dclock .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.dclock .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.dclock .icon-minus,.dclock .icon-max,.dclock  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.dclock .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.dclock .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .dclock .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+
+ .dclock  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .dclock  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .dclock  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+
+     
+ .dclock   .clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px auto 0 auto;
+    background: url(images/clockface300.jpg);
+    list-style: none;
+ }
+        
+.dclock   .sec, .min, .hour {
+    position: absolute;
+    width: 15px;
+    height: 300px;
+    top: 0px;
+    left: 145px;
+}
+        
+.dclock  .sec {
+   background: url(images/sechand300.png);
+   z-index: 3;
+}
+           
+.dclock  .min {
+   background: url(images/minhand300.png);
+   z-index: 2;
+}
+           
+.dclock  .hour {
+   background: url(images/hourhand300.png);
+   z-index: 1;
+}
+           	

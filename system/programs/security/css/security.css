@@ -1,0 +1,244 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.security.program{
+  
+  height:416px;
+  width:551px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  color:#2A6496  !important;
+  
+}
+.security .window_top {background:#0080AB}
+
+.security .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.security .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.security .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.security .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.security .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.security .icon-minus,.security .icon-max,.security  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.security .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.security .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .security .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+ .security  .window_content{
+    background:#f0f0f0;
+ 
+ }
+ .security  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .security  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .security  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+ .security   .login_settings{
+    float:left;
+	width:95%;
+	background:#fff;
+	margin-left:2%;
+	height:300px;
+	 border:1px solid #333;
+ 
+ }
+ .security .bootstrap-admin-panel-content{
+   float:left;
+   margin-left:2%;
+  
+ }
+  .security  .login_type{
+    float:left;
+	width:95%;
+	height:50px;
+	border-bottom:1px solid #ccc;
+	margin-left:2%;
+  
+  }
+   .security  .login_type .login_type_img{
+      float:left;
+	  width:20%;
+   
+   }
+    .security  .login_type .login_type_img img{
+	   float:left;
+	   width:35px;
+	   margin-top:5px;
+	}
+   .security  .login_type .login_type_content{
+      float:left;
+	  width:80%;
+   }
+   .security  .login_type_content label{
+        float:left;
+		width:20%;
+		margin-top:15px;
+   }
+   .security  .login_type_content select{
+       margin-top:8px;
+	   float:right;
+   }
+  .security .login_content_settings{
+     float:left;
+	 width:100%;
+  
+  }
+  .security .login_content_settings .div_griseset{
+     float:left;
+	 width:100%;
+	 margin-top:5px;
+  
+  }
+  .security  .login_content_settings label.width30{float:left;width:20%;text-align:right;padding-right:22px;margin-top:7px;}
+    .security  .login_content_settings label.width30_t{float:left;width:30%;text-align:right;padding-right:22px;margin-top:3px;}
+
+  .security .login_content_settings .input_width30{
+      float:left;
+      
+  }
+  .security .login_content_settings  select{
+     float:left;
+  }
+   .security .login_content_settings  .fieldset{
+      float:left;
+	  border:1px solid #ccc;
+   
+   }
+   .security .grise_title{font-size:16px;float:left;width:100%;border-bottom:1px solid #ccc;margin-bottom:3px;background:#0080AB;color:#fff;height:25px;}
+ .security   .top_5{width:95% !important;background:#f4f4f4;margin-left:2%;height:70px;}
+  .security    .griseinner{
+     float:left;
+	 
+  
+  }
+  .security  .label_checkbox{float:left;margin-top:3px;margin-left:5px;}
+  .security  .label_checkbox  span{float: right;margin-top: 2px;margin-left:5px;}
+  
+  .security .btns_extnernal{
+  float:left;
+  width:100%;
+  margin-top:5px;
+}
+.security .btn{
+ border:1px solid #333;
+}
+.security .btns_extnernal .btn{
+  background: #D2D2D2;
+  margin:0 3px;
+}
+.security .btns_extnernal  .btns_group{
+     float:right;
+	 margin-right:16px;
+}
+.security .btns_extnernal .btn_ok{
+  float:left;
+  
+
+}
+.security- .btns_extnernal .btn_cancel{
+  float:left;
+   
+ }
+ 
+.security .permission{
+  float:left;
+	width:95%;
+	background:#fff;
+	margin-left:2%;
+	height:300px;
+	 border:1px solid #333;
+}
+.security .permission .group{
+  float:left;
+  width:90%;
+  margin-left:5%
+
+} 
+
+
+
+
+
+
+
+
+
+

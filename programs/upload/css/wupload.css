@@ -1,0 +1,193 @@
+
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.upload_style{
+  
+  height:429px;
+  width:640px;
+  border:1px solid #333;
+  background:#fff;
+  float:left;
+   position: absolute;
+  
+  
+}
+
+.upload_style .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.upload_style .modal-header_window {
+    background: none repeat scroll 0 0 #f4f4f4;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.upload_style .top_bar{
+  float:left;
+  width:100%;
+}
+
+.upload_style .top_bar  .btn_menu input[type=image]{float:left;width:25px;height:25px;margin:0 2px 0 2px;}
+.upload_style .top_bar .btn_update .reload{float:left;background:#ECF2F9;height:24px;border-top:1px solid #333;margin:0 10px 0 0;}
+.upload_style .top_bar .btn_search .reload{float:left;background:#ECF2F9;height:24px;border-top:1px solid #333;}
+/*search text*/
+.upload_style .top_bar input.search_explore{float:left;width:56%;height:25px;background:#ECF2F9;border-bottom:1px solid #ccc;
+	border-top:1px solid #333;
+	border-left:1px solid #333;}
+.upload_style .top_bar input.search_all{
+	float:left;
+	width:25.3%;
+	height:25px;
+	background:#ECF2F9;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #333;
+	border-left:1px solid #333;
+	border-right:0;
+	
+}
+
+.upload_style .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.upload_style .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.upload_style .icon-minus,.upload_style .icon-max,.upload_style  .icon-close{
+  color:#333;
+
+}
+
+.upload_style .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.upload_style .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .upload_style .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+
+.upload_style .sidebar{width:200px;float:left;border-right:1px solid #ccc;height:330px;overflow-y:scroll;}
+.upload_style .container_explore{float:left;width:100%;background:#fff;}
+.upload_style ul.arvore {font: 18px Verdana, Geneva, sans-serif;	color: #444;height:100%;list-style:none;margin:0;padding:10px 0 10px 0;}
+.upload_style .arvore li {text-align: left;padding: 1px 0 1px 5px;}
+.upload_style .arvore li.file:hover{cursor:pointer;}
+span.iconLiArvore {height: 10px;	width: 10px;display: inline-block;padding: 0 5px 0 0;cursor: pointer;}
+
+.upload_style .arvore li.fechado span.iconLiArvore {height: 10px;}
+.upload_style .arvore li a {text-decoration: none;color: #444;padding: 1px 0;padding /*\**/: 2px 0\9;text-indent: 2px;}
+.upload_style .arvore li a.activo {background: #d4d4d4;color: #fff;font-weight: bold;}
+.upload_style .arvore li:hover {background: #e7e7e7 !important;}
+.upload_style .arvore li a.marcado:hover {background: #06344C;color: #fff !important;}
+
+.upload_style .content{width:68.6%;float:left;height:330px;overflow-y:scroll;}
+.upload_style .content .arvore{float:left;font: 20px Verdana, Geneva, sans-serif;}
+.upload_style .content .arvore li{margin-top:10px;}
+.upload_style .content .arvore li a{text-indent:4px;padding-bottom:2px;margin-left:20px;}
+.upload_style .content .arvore span img{width:40px;height:40px;float:}
+.upload_style .content .arvore span.iconLiArvore{padding: 0 20px 0 0;}
+.upload_style .content  .arvore li:hover{background: transparent !important;}
+
+
+.upload_style .wexplore_footer{
+   float:left;
+   width:100%;
+   background:#F0F0F0;
+   height:70px;
+  display:none;
+  
+  
+}
+.upload_style .wexplore_footer .open_folder{
+  float:left;
+  margin:10px 0 0 0;
+  display:none;
+  
+}
+.upload_style .wexplore_footer .save_file{
+  float:left;
+  margin:10px 0 0 0;
+  display:none;
+}
+.upload_style .wexplore_footer .file_a{
+  float:left;
+   width:50%;
+   margin:10px 10px  0 200px;
+}
+.upload_style .upload_btns{
+
+  float:left;
+  width:100%;
+}
+
+
+.upload_style .gallery_path{
+  
+  float: left;
+  width: 83%;
+}
+.upload_style div.group img{
+   width:120px;
+   height:120px;
+   cursor:pointer;
+}
+.upload_style label.group{
+  float:left;
+  width:100%;
+}
+.upload_style button.group{
+  width:100%;
+  float:left;
+  margin-top:0;
+}
+.upload_style .form-control_width_button{
+  width:65%;
+  float:left;
+}
+.upload_style button.button_explore{
+   width:100px;
+   float:left;
+   margin-left:2px;
+   background: #d2d2d2;
+   color:#333;
+   border: 1px solid #333;
+    
+}

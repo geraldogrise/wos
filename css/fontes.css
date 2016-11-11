@@ -1,0 +1,41 @@
+/*!
+ *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontes/fontawesome-webfont.eot?v=4.0.3');
+  src: url('fontes/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('fontes/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('fontes/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('fontes/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'codaregular';
+    src: url('fontes/coda-regular-webfont.eot');
+    src: url('fontes/coda-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/coda-regular-webfont.woff') format('woff'),
+         url('fontes/coda-regular-webfont.ttf') format('truetype'),
+         url('fontes/coda-regular-webfont.svg#codaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'codaheavy';
+    src: url('fontes/coda-heavy-webfont.eot');
+    src: url('fontes/coda-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/coda-heavy-webfont.woff') format('woff'),
+         url('fontes/coda-heavy-webfont.ttf') format('truetype'),
+         url('fontes/coda-heavy-webfont.svg#codaheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,114 @@
+ /*
+ * ©copyright Grisecorp
+ * System - Web operation System 1.0
+ * Autor -  Geraldo Grise 
+ */
+.programs.program{
+  
+  height:344px;
+  width:401px;
+  background:#FFF;
+   float:left;
+   position: absolute;
+  
+}
+
+.programs .modal-header {
+  float:left;
+  min-height: 16.428571429px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+.programs .modal-header_window {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    min-height: 16.4286px;
+    padding: 5px;
+    width: 100%;
+	
+}
+.programs .top_bar{
+  float:left;
+  width:100%;
+ 
+}
+
+
+.programs .modal-header .close {
+  margin-top: -2px;
+}
+
+
+.programs .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+  color:#333;
+}
+.programs .icon-minus,.programs .icon-max,.programs  .icon-close{
+  color:#333;
+
+}
+
+
+
+
+.programs .modal-body {
+  float:left;
+  width:100%;
+  height:100%;
+  background:#fff;;
+ 
+  
+}
+
+.programs .modal-footer {
+  float:left;
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .programs .modal-dialog {
+   
+	float:left;
+	width:100%;
+	height:100%;
+	
+	
+  
+  }
+ 
+
+}
+ .programs  .window_content{
+    background:#f0f0f0;
+ 
+ }
+ .programs  .container_text{
+   width:100%;
+    background:white;
+ 
+ }
+ .programs  .container_text{
+  
+     width:100%;
+	 background:#fff;
+ } 
+ 
+
+
+ .programs  .ui-resizable-se {
+   
+	right: -5px;
+    bottom: -5px;
+}
+
+
+

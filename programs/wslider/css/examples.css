@@ -1,0 +1,10 @@
+.slider-pro {
+    font-family: 'Open Sans', Arial;
+}
+
+
+/* Example 3 */
+
+.sliderpro .sp-selected-thumbnail {
+	border: 4px solid #000;
+}
