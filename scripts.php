@@ -121,8 +121,8 @@
 			<script src="scripts/mensagem.js"></script>
 			<script src="scripts/fm.selectator.jquery.js"></script>
 			<script src="scripts/common.js"></script>
-			<script src="http://momentjs.com/downloads/moment.js"></script>
-            <script src="http://momentjs.com/downloads/moment-timezone-with-data-2010-2020.js"></script>
+			<script src="scripts/moment.js"></script>
+            <script src="scripts/moment-timezone-with-data-2012-2022.js"></script>
 			<script src="scripts/jQuery.base64.js"></script>
 			
 			

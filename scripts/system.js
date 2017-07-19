@@ -367,7 +367,7 @@ function pasteFiles(folder,local,destino,folder_prev){
 				  },
                   error: function(XMLHttpRequest, textStatus, errorThrown){
 		        
-					 callWindowMessage("","error",UcFirst(textStatus),errorThrown);
+					callWindowMessage("","error",UcFirst(textStatus),errorThrown);
 					 
 				  }				  
                  			  
@@ -600,7 +600,7 @@ function getContentDesktop(id,current,tipo,direto,setupView){
 		     current = current.replace(/\#/g, "\\");
 			 id_user  =$('#user_system_id').val();  
               id_group  =$('#group_system_id').val();
-			
+		
 		     var x = $.ajax({
 			   type : 'post',
 			   url  : 'system/controller/directoryController.php',

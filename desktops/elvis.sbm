@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sound_file>
+	   <name>Elvis</name>;
+	   <user>Geraldo</user>
+	   <path>/home/vol12_5/rf.gd/rfgd_18759355/htdocs/wos/computer/album</path>
+	   <image>http://grisecorp.rf.gd/wos/computer/album/Clambake.jpg</image>
+	   <dt_create>01/03/2015</dt_create>
+	   <dt_change>01/03/2015</dt_change>
+				
+		<sounds>
+			 <audio>
+					  <audio_id>01</audio_id>
+					  <name>01 - Beyond The Bend</name>
+					  <size>3,58Mb</size>
+			 </audio>
+			 <audio>
+					  <audio_id>02</audio_id>
+					  <name>01 - Elvis Presley - Hound Dog - Elvis' Golden Records</name>
+					  <size>3,58Mb</size>
+			 </audio>
+			  <audio>
+					  <audio_id>03</audio_id>
+					  <name>01 - Elvis Presley - It's Now or Never - Elvis' Golden Record</name>
+					  <size>3,58Mb</size>
+			 </audio>
+			  <audio>
+					  <audio_id>04</audio_id>
+					  <name>01 - Just Can't Help Believin'</name>
+					  <size>3,58Mb</size>
+			 </audio>
+			  <audio>
+					  <audio_id>05</audio_id>
+					  <name>01 - PROMISED LAND</name>
+					  <size>3,58Mb</size>
+			 </audio>
+				
+		</sounds>
+</sound_file>

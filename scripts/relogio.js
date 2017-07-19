@@ -41,7 +41,7 @@ function getCurrentHour(){
 
 	var m = moment.tz(momentoAtual,$('#time_zone').val());
 	var s = m.format();
-    s = m.format('HH:mm'); 
+    s = m.format('HH:mm');
 	return s;
 
 }
