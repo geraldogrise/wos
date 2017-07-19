@@ -21,7 +21,7 @@ html{
 	/*background:url('http://7-themes.com/data_images/out/78/7041201-vietnam-beach.jpg') no-repeat center center;*/
  /* background:url('http://wallpaper.ultradownloads.com.br/119685_Papel-de-Parede-Apple-Azul-Claro_1920x1200.jpg') no-repeat center center;*/
 	
-	background:url('http://wallpaper.ultradownloads.com.br/119685_Papel-de-Parede-Apple-Azul-Claro_1920x1200.jpg') no-repeat center center;
+	background:url('../images/back3.jpg') no-repeat center center;
 	
 	/* Ensure the html element always takes up the full height of the browser window */
 	min-height:100%;
