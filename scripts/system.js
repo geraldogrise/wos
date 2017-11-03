@@ -763,7 +763,7 @@ function setContextMenuProgram(id,elemento,menu){
 function setContextMenuBarBottom(elemento,menu){
 	  
     
-	
+
 	 $.contextMenu({
         selector: elemento, 
         callback: function(key, options) {

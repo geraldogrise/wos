@@ -158,6 +158,12 @@
 			<script src="scripts/languages/zh_TW.js"></script>
 			<script src="scripts/languages/languages.js"></script>
 			<script src="scripts/lang_setting.js"></script>
+			
+			<!-- gritter--> 
+			<link href="css/jquery.gritter.css" rel="stylesheet" />
+			<script src="scripts/jquery.gritter.js"></script>
+			<script src="scripts/nofity.js"></script>
+	
 
 		
 			

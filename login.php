@@ -56,13 +56,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Geraldo Grise">
-
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/login.css" rel="stylesheet">
+	<!-- gritter--> 
+    <link href="css/jquery.gritter.css" rel="stylesheet" />
+    <script src="scripts/jquery.gritter.js"></script>
+    <script src="scripts/nofity.js"></script>
+	
     
 	
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	
 
     <style type="text/css">
       body {
@@ -96,6 +101,7 @@
 	 <script src="system/scripts/captcha/jquery.plugin.js"></script>
      <script src="system/scripts/captcha/jquery.realperson.js"></script>
 	 <link rel="stylesheet" href="css/jquery.realperson.css">
+
 	 <script>
 	 
 	    $(function() {
@@ -325,6 +331,18 @@ angular.module('voiceCommands', [])
 });
 </script>
 <?php } ?>
+
+<?php
+   if(isset($_GET["Error"]) && strtolower($_GET["Error"]) == "true"){
+?> 
+<script>
+  $(function(){
+     addNotify('There was a problem','Your credentials are incorrect.','');
+  });
+</script>
+<?php 
+   }
+?>
 
 
 </html>
